@@ -1,9 +1,14 @@
+package module;
+
+import java.util.Date;
+
 public class Person
 {
     // My Attributes.
     private String name;
     private String family_name;
     private int age;
+    private Date birthday;
 
     // Constructors.
     public Person()
