@@ -1,3 +1,4 @@
+import util.DateItinerary;
 import java.util.Date;
 import java.text.SimpleDateFormat;
 
@@ -22,7 +23,7 @@ public class Main
             DateItinerary d3 = new DateItinerary(current, goal);
             System.out.println(d3);
         }
-        catch (Exception e)
+        catch (java.text.ParseException e)
         {
             System.out.println("Parse error!");
             System.exit(-1);

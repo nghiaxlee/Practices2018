@@ -1,3 +1,5 @@
+package util;
+
 // Date has our Date class, no doubts we need that
 import java.util.Date;
 import java.text.SimpleDateFormat;
@@ -13,7 +15,7 @@ public class DateItinerary{
         this.goal = new Date();
     }
 
-    public DateItinerary(String current, String goal) throws Exception
+    public DateItinerary(String current, String goal) throws java.text.ParseException
     {
         SimpleDateFormat my_format = new SimpleDateFormat("yyyyMMdd");
         this.current = my_format.parse(current);
