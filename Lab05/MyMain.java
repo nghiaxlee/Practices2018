@@ -32,7 +32,7 @@ public class MyMain
             }
             catch (Exception e)
             {
-
+                
             }
             switch (option)
             {
@@ -42,20 +42,27 @@ public class MyMain
                     Student student = new Student();
                     try
                     {
-                        
+                        // Read classroom
+                        // Read name
+                        // Read family name
+                        // Read neptun code
                     }
                     catch (Exception e)
                     {
-
+                        
                     }
                     break;
                 case 2:
-                    // classroom.remove();
+                    // read neptun.
+                    // classroom.removeStudent(neptun);
                     break;
                 case 3:
+                    // read classroom no.
                     // classroom.print();
                     break;
                 case 4:
+                    // read classroom no.
+                    // classroom.checkCommonStudents(classes[]);
                     break;
                 default:
                     System.out.println("Not an option.");
